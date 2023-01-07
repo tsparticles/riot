@@ -27,7 +27,7 @@ importers:
       css-loader: ^6.7.3
       esm: ^3.2.25
       html-webpack-plugin: ^5.5.0
-      jsdom: ^20.0.3
+      jsdom: ^21.0.0
       jsdom-global: ^3.0.2
       mini-css-extract-plugin: ^2.7.2
       mocha: ^10.2.0
@@ -58,8 +58,8 @@ importers:
       css-loader: 6.7.3_webpack@5.75.0
       esm: 3.2.25
       html-webpack-plugin: 5.5.0_webpack@5.75.0
-      jsdom: 20.0.3
-      jsdom-global: 3.0.2_jsdom@20.0.3
+      jsdom: 21.0.0
+      jsdom-global: 3.0.2_jsdom@21.0.0
       mini-css-extract-plugin: 2.7.2_webpack@5.75.0
       mocha: 10.2.0
       nyc: 15.1.0
@@ -76,7 +76,7 @@ importers:
       '@tsparticles/prettier-config': ^1.5.0
       chai: ^4.3.7
       esm: ^3.2.25
-      jsdom: ^20.0.3
+      jsdom: ^21.0.0
       jsdom-global: ^3.0.2
       mocha: ^10.2.0
       nyc: ^15.1.0
@@ -93,8 +93,8 @@ importers:
       '@tsparticles/prettier-config': 1.5.0_prettier@2.8.1
       chai: 4.3.7
       esm: 3.2.25
-      jsdom: 20.0.3
-      jsdom-global: 3.0.2_jsdom@20.0.3
+      jsdom: 21.0.0
+      jsdom-global: 3.0.2_jsdom@21.0.0
       mocha: 10.2.0
       nyc: 15.1.0
       prettier: 2.8.1
@@ -109,7 +109,7 @@ importers:
       '@tsparticles/prettier-config': ^1.5.0
       chai: ^4.3.7
       esm: ^3.2.25
-      jsdom: ^20.0.3
+      jsdom: ^21.0.0
       jsdom-global: ^3.0.2
       mocha: ^10.2.0
       nyc: ^15.1.0
@@ -126,8 +126,8 @@ importers:
       '@tsparticles/prettier-config': 1.5.0_prettier@2.8.1
       chai: 4.3.7
       esm: 3.2.25
-      jsdom: 20.0.3
-      jsdom-global: 3.0.2_jsdom@20.0.3
+      jsdom: 21.0.0
+      jsdom-global: 3.0.2_jsdom@21.0.0
       mocha: 10.2.0
       nyc: 15.1.0
       prettier: 2.8.1
@@ -5770,16 +5770,16 @@ packages:
     dependencies:
       argparse: 2.0.1
 
-  /jsdom-global/3.0.2_jsdom@20.0.3:
+  /jsdom-global/3.0.2_jsdom@21.0.0:
     resolution: {integrity: sha512-t1KMcBkz/pT5JrvcJbpUR2u/w1kO9jXctaaGJ0vZDzwFnIvGWw9IDSRciT83kIs8Bnw4qpOl8bQK08V01YgMPg==}
     peerDependencies:
       jsdom: '>=10.0.0'
     dependencies:
-      jsdom: 20.0.3
+      jsdom: 21.0.0
     dev: true
 
-  /jsdom/20.0.3:
-    resolution: {integrity: sha512-SYhBvTh89tTfCD/CRdSOm13mOBa42iTaTyfyEWBdKcGdPxPtLFBXuHR8XHb33YNYaP+lLbmSvBTsnoesCNJEsQ==}
+  /jsdom/21.0.0:
+    resolution: {integrity: sha512-AIw+3ZakSUtDYvhwPwWHiZsUi3zHugpMEKlNPaurviseYoBqo0zBd3zqoUi3LPCNtPFlEP8FiW9MqCZdjb2IYA==}
     engines: {node: '>=14'}
     peerDependencies:
       canvas: ^2.5.0

@@ -1,4 +1,4 @@
-# @tsparticles/riot-demo
+# riot-particles-demo
 
 
 

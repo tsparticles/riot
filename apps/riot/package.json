@@ -17,7 +17,7 @@
     "license": "MIT",
     "devDependencies": {
         "@riotjs/compiler": "^6.4.2",
-        "@riotjs/register": "^6.0.1",
+        "@riotjs/register": "^9.0.0",
         "@riotjs/webpack-loader": "^6.0.0",
         "chai": "^4.3.7",
         "css-loader": "^6.7.3",

@@ -100,7 +100,7 @@
     "@babel/core": "^7.18.6",
     "@babel/preset-typescript": "^7.18.6",
     "@riotjs/cli": "^6.1.0",
-    "@riotjs/compiler": "^6.4.2",
+    "@riotjs/compiler": "^9.0.0",
     "@tsparticles/prettier-config": "^1.6.0",
     "chai": "^4.3.7",
     "esm": "^3.2.25",

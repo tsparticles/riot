@@ -25,10 +25,10 @@ importers:
     dependencies:
       '@riotjs/hot-reload':
         specifier: ^6.0.1
-        version: 6.0.1(riot@7.1.0)
+        version: 6.0.1(riot@9.0.0)
       '@riotjs/lazy':
         specifier: ^2.0.2
-        version: 2.0.2(riot@7.1.0)
+        version: 2.0.2(riot@9.0.0)
       '@riotjs/route':
         specifier: ^8.0.2
         version: 8.0.2
@@ -36,8 +36,8 @@ importers:
         specifier: ^0.12.7
         version: 0.12.7
       riot:
-        specifier: ^7.1.0
-        version: 7.1.0
+        specifier: ^9.0.0
+        version: 9.0.0
       riot-particles:
         specifier: ^2.9.3
         version: link:../../components/riot
@@ -140,8 +140,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
       riot:
-        specifier: ^7.1.0
-        version: 7.1.0
+        specifier: ^9.0.0
+        version: 9.0.0
 
 packages:
 
@@ -1827,22 +1827,22 @@ packages:
       source-map: 0.7.4
     dev: true
 
-  /@riotjs/hot-reload@6.0.1(riot@7.1.0):
+  /@riotjs/hot-reload@6.0.1(riot@9.0.0):
     resolution: {integrity: sha512-cPWkT/mcdpeOAheo0YooG/mZDZJebZn6AA28orZ7IIh1emYip45/bghHUi5+q9cEHj3KsP5z6djSVZDUFbBGqA==}
     peerDependencies:
       riot: ^6.0.0 || ^7.0.0
     dependencies:
       bianco.query: 1.1.4
-      riot: 7.1.0
+      riot: 9.0.0
     dev: false
 
-  /@riotjs/lazy@2.0.2(riot@7.1.0):
+  /@riotjs/lazy@2.0.2(riot@9.0.0):
     resolution: {integrity: sha512-svLGxCs76omEvp8DTXpZrIbs5rhY/wX6bLo1sIpxcIJOmuuHXGqyFuzHxWg0nKtqMhdz9TVH29uUKFBA5NqKSQ==}
     peerDependencies:
       riot: ^6.0.0 || ^7.0.0
     dependencies:
       '@riotjs/util': 2.2.0
-      riot: 7.1.0
+      riot: 9.0.0
     dev: false
 
   /@riotjs/parser@4.3.1:
@@ -6675,9 +6675,9 @@ packages:
     dependencies:
       glob: 7.2.3
 
-  /riot@7.1.0:
-    resolution: {integrity: sha512-gryeKYzil9eyETv8b1Dh+BFdkzS41XQegOSQoFI8GCzxSPm3YA5QA0NVZn5SE2iyVgBrttaIn6cK9yVUI/Iu3A==}
-    engines: {node: '>=12.0.0'}
+  /riot@9.0.0:
+    resolution: {integrity: sha512-P3adZglcAO4u2aQAu2vSm+6ErXcBSXgf96UhyzPT/cL803ZUmIuCyoUdGje59jgNwuv6lhJhLgoO5I6xZvVY+w==}
+    engines: {node: '>=16.0.0'}
 
   /rollup-plugin-riot@6.0.0(@riotjs/compiler@6.4.2)(rollup@2.79.1):
     resolution: {integrity: sha512-jjzhuYKXTmWFyyGGMyYesxfGMYhz6GMrDIEtgF7EEwBOb2RlgSjhEhgDuHDtUJ7/EGYU7ooa6MhfO4v+HU+q2g==}

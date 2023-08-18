@@ -58,8 +58,8 @@ importers:
         specifier: ^9.0.0
         version: 9.0.0(@riotjs/compiler@9.0.0)
       '@riotjs/webpack-loader':
-        specifier: ^6.0.0
-        version: 6.0.0(@riotjs/compiler@9.0.0)
+        specifier: ^9.0.0
+        version: 9.0.0(@riotjs/compiler@9.0.0)(webpack@5.75.0)
       chai:
         specifier: ^4.3.7
         version: 4.3.7
@@ -1891,13 +1891,14 @@ packages:
     resolution: {integrity: sha512-qoL8REqNPFSGcCaBuzmqKICmVjSimQ3gD7EHrgBqSLgO/7Z83nRtCPcARWwjGHYm8TtDBSFZeton34Qi01XXOg==}
     dev: true
 
-  /@riotjs/webpack-loader@6.0.0(@riotjs/compiler@9.0.0):
-    resolution: {integrity: sha512-ktmbHSexRKPK7QEymAPJq3v/S6aQcmfB0OX2p8zUoKYKlfzEYmdCRjAg4vo9Xw82r4ueYDW5GIdMvoLGWqovIA==}
+  /@riotjs/webpack-loader@9.0.0(@riotjs/compiler@9.0.0)(webpack@5.75.0):
+    resolution: {integrity: sha512-yFR3QX5VfMUXwin04Mcm6dPe8+llCsnjh1Q5oRNsx2nb2//9wbrG9DZcecuM1XyAiDENfaXGBkALt7PCkM3XqA==}
     peerDependencies:
-      '@riotjs/compiler': ^6.0.0
+      '@riotjs/compiler': ^6.0.0 || ^9.0.0
+      webpack: '>=5.0.0'
     dependencies:
       '@riotjs/compiler': 9.0.0
-      loader-utils: 2.0.4
+      webpack: 5.75.0(webpack-cli@5.0.1)
     dev: true
 
   /@rollup/plugin-babel@5.3.1(@babel/core@7.20.7)(rollup@2.79.1):
@@ -2621,10 +2622,6 @@ packages:
     dependencies:
       bianco.dom-to-array: 1.1.0
     dev: false
-
-  /big.js@5.2.2:
-    resolution: {integrity: sha512-vyL2OymJxmarO8gxMr0mhChsO9QGwhynfuu4+MHTAW6czfq9humCB7rKpUjDd9YUiDPU4mzpyupFSvOClAwbmQ==}
-    dev: true
 
   /bin-links@3.0.3:
     resolution: {integrity: sha512-zKdnMPWEdh4F5INR07/eBrodC7QrF5JKvqskjz/ZZRXg5YSAZIbn8zGhbhUrElzHBZ2fvEQdOU59RHcTG3GiwA==}
@@ -3598,11 +3595,6 @@ packages:
 
   /emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
-
-  /emojis-list@3.0.0:
-    resolution: {integrity: sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==}
-    engines: {node: '>= 4'}
-    dev: true
 
   /encodeurl@1.0.2:
     resolution: {integrity: sha512-TPJXq8JqFaVYm2CWmPvnP2Iyo4ZSM7/QKcSmuMLDObfpH5fi7RUGmd/rTDf+rut/saiDiQEeVTNgAmJEdAOx0w==}
@@ -5074,15 +5066,6 @@ packages:
   /loader-runner@4.3.0:
     resolution: {integrity: sha512-3R/1M+yS3j5ou80Me59j7F9IMs4PXs3VqRrm0TU3AbKPxlmpoY1TNscJV/oGJXo8qCatFGTfDbY6W6ipGOYXfg==}
     engines: {node: '>=6.11.5'}
-    dev: true
-
-  /loader-utils@2.0.4:
-    resolution: {integrity: sha512-xXqpXoINfFhgua9xiqD8fPFHgkoq1mmmpE92WlDbm9rNRd/EbRb+Gqf908T2DMfuHjjJlksiK2RbHVOdD/MqSw==}
-    engines: {node: '>=8.9.0'}
-    dependencies:
-      big.js: 5.2.2
-      emojis-list: 3.0.0
-      json5: 2.2.2
     dev: true
 
   /locate-path@2.0.0:

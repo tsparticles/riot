@@ -27,8 +27,8 @@ importers:
         specifier: ^6.0.1
         version: 6.0.1(riot@9.0.0)
       '@riotjs/lazy':
-        specifier: ^2.0.2
-        version: 2.0.2(riot@9.0.0)
+        specifier: ^9.0.0
+        version: 9.0.0(riot@9.0.0)
       '@riotjs/route':
         specifier: ^8.0.2
         version: 8.0.2
@@ -1836,12 +1836,12 @@ packages:
       riot: 9.0.0
     dev: false
 
-  /@riotjs/lazy@2.0.2(riot@9.0.0):
-    resolution: {integrity: sha512-svLGxCs76omEvp8DTXpZrIbs5rhY/wX6bLo1sIpxcIJOmuuHXGqyFuzHxWg0nKtqMhdz9TVH29uUKFBA5NqKSQ==}
+  /@riotjs/lazy@9.0.0(riot@9.0.0):
+    resolution: {integrity: sha512-RmDMJViPADzyPifyRb/mFP62K2FRwFOLoUAviFpV2KCRCeccaaI+xouzRUv+XTLAoBy6Ha0YqVRi51Q0aMp3DA==}
     peerDependencies:
-      riot: ^6.0.0 || ^7.0.0
+      riot: ^6.0.0 || ^7.0.0 || ^9.0.0
     dependencies:
-      '@riotjs/util': 2.2.0
+      '@riotjs/util': 2.2.3
       riot: 9.0.0
     dev: false
 
@@ -1890,6 +1890,10 @@ packages:
   /@riotjs/util@2.2.1:
     resolution: {integrity: sha512-qoL8REqNPFSGcCaBuzmqKICmVjSimQ3gD7EHrgBqSLgO/7Z83nRtCPcARWwjGHYm8TtDBSFZeton34Qi01XXOg==}
     dev: true
+
+  /@riotjs/util@2.2.3:
+    resolution: {integrity: sha512-Rwx2fAKUSFMWK1MK1vbQQZk8oOkBdHsVz7RCHPMcOJOBHWJaLZ1i6lIshf5rN7dzd7whafSvUcBDMRKU8I+cIA==}
+    dev: false
 
   /@riotjs/webpack-loader@9.0.0(@riotjs/compiler@9.0.0)(webpack@5.75.0):
     resolution: {integrity: sha512-yFR3QX5VfMUXwin04Mcm6dPe8+llCsnjh1Q5oRNsx2nb2//9wbrG9DZcecuM1XyAiDENfaXGBkALt7PCkM3XqA==}

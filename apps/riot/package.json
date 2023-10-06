@@ -33,7 +33,7 @@
         "webpack-dev-server": "^4.11.1"
     },
     "dependencies": {
-        "@riotjs/hot-reload": "^6.0.1",
+        "@riotjs/hot-reload": "^9.0.0",
         "@riotjs/lazy": "^2.0.2",
         "@riotjs/route": "^8.0.2",
         "path": "^0.12.7",

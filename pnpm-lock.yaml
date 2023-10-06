@@ -24,8 +24,8 @@ importers:
   apps/riot:
     dependencies:
       '@riotjs/hot-reload':
-        specifier: ^6.0.1
-        version: 6.0.1(riot@9.0.0)
+        specifier: ^9.0.0
+        version: 9.0.1(riot@9.0.0)
       '@riotjs/lazy':
         specifier: ^2.0.2
         version: 2.0.2(riot@9.0.0)
@@ -1827,10 +1827,10 @@ packages:
       source-map: 0.7.4
     dev: true
 
-  /@riotjs/hot-reload@6.0.1(riot@9.0.0):
-    resolution: {integrity: sha512-cPWkT/mcdpeOAheo0YooG/mZDZJebZn6AA28orZ7IIh1emYip45/bghHUi5+q9cEHj3KsP5z6djSVZDUFbBGqA==}
+  /@riotjs/hot-reload@9.0.1(riot@9.0.0):
+    resolution: {integrity: sha512-/S0m0STCmJgQY1nmSJNyFkE4VWc7oeyJTkakHVTB5CYY/aA6FnlENUjhfe23bzfab/gOkrNk3+M8yuZ0x9HO9g==}
     peerDependencies:
-      riot: ^6.0.0 || ^7.0.0
+      riot: ^6.0.0 || ^7.0.0 || ^9.0.0
     dependencies:
       bianco.query: 1.1.4
       riot: 9.0.0

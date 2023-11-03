@@ -30,8 +30,8 @@ importers:
         specifier: ^2.0.2
         version: 2.0.2(riot@9.0.0)
       '@riotjs/route':
-        specifier: ^8.0.2
-        version: 8.0.2
+        specifier: ^9.0.0
+        version: 9.0.0
       path:
         specifier: ^0.12.7
         version: 0.12.7
@@ -1869,14 +1869,15 @@ packages:
       '@riotjs/compiler': 9.0.0
     dev: true
 
-  /@riotjs/route@8.0.2:
-    resolution: {integrity: sha512-zTLKhoJkpQa7lKOxEYLnSB8wVo9IQMcpZ3ysTgK9Av8yl9FVbO55tiwnShiLair+jOjuBAXvdTqTHBxZDBqrbw==}
+  /@riotjs/route@9.0.0:
+    resolution: {integrity: sha512-Mr1li8RRqHqYj0n0fvhKZakLn9ADsk+r/6pxEVTtVNnEMwcMb7bJXX73qU7SZAbXlqFL4MLPoWRTY2kkFdPa1g==}
     dependencies:
-      '@riotjs/util': 2.2.0
+      '@riotjs/util': 2.2.3
       bianco.attr: 1.1.1
       bianco.events: 1.1.1
-      cumpa: 1.0.1
-      rawth: 2.1.2
+      bianco.query: 1.1.4
+      cumpa: 2.0.1
+      rawth: 3.0.0
     dev: false
 
   /@riotjs/util@2.1.1:
@@ -1890,6 +1891,10 @@ packages:
   /@riotjs/util@2.2.1:
     resolution: {integrity: sha512-qoL8REqNPFSGcCaBuzmqKICmVjSimQ3gD7EHrgBqSLgO/7Z83nRtCPcARWwjGHYm8TtDBSFZeton34Qi01XXOg==}
     dev: true
+
+  /@riotjs/util@2.2.3:
+    resolution: {integrity: sha512-Rwx2fAKUSFMWK1MK1vbQQZk8oOkBdHsVz7RCHPMcOJOBHWJaLZ1i6lIshf5rN7dzd7whafSvUcBDMRKU8I+cIA==}
+    dev: false
 
   /@riotjs/webpack-loader@9.0.0(@riotjs/compiler@9.0.0)(webpack@5.75.0):
     resolution: {integrity: sha512-yFR3QX5VfMUXwin04Mcm6dPe8+llCsnjh1Q5oRNsx2nb2//9wbrG9DZcecuM1XyAiDENfaXGBkALt7PCkM3XqA==}
@@ -3305,10 +3310,10 @@ packages:
 
   /cumpa@1.0.1:
     resolution: {integrity: sha512-Ew3sfG4cqvDFINS1VgdvLX1FIruhySlnP6DRLhB+1EjewiOzhJzKRKPEp/TCuo0RDisSFeuaDrk0S4Q8grF9CA==}
+    dev: true
 
   /cumpa@2.0.1:
     resolution: {integrity: sha512-8oBF1cSWkgYq0ZsLP9iiLLZDicIh1eYM8WLicRhaSLMrdtjEf9A3DgMYMxB/i/xgVUZGxPVD/hrwVzx/pjdmmw==}
-    dev: true
 
   /curri@1.0.1:
     resolution: {integrity: sha512-VwFb2MGqN0A1RPA0vSgDRSWc0c+V6N9yz8pVYJ9AXILAukRAyCZP5Sqp4VdOxgw1lT0t5oaplwIDT/ruF3Nz7Q==}
@@ -3653,8 +3658,8 @@ packages:
     resolution: {integrity: sha512-2bmlRpNKBxT/CRmPOlyISQpNj+qSeYvcym/uT0Jx2bMOlKLtSy1ZmLuVxSEKKyor/N5yhvp/ZiG1oE3DEYMSFA==}
     dev: false
 
-  /erre@2.2.0:
-    resolution: {integrity: sha512-rM+EfZdJCC17CSBGyULHRHfHiUpElGLfAv0g2Eu+xQZOMPAaCZon0odOXKa3EsrCeO4VFKMpXNAGziUzIY0PEA==}
+  /erre@3.0.1:
+    resolution: {integrity: sha512-NoexRasUiWU1CcBMh997iybzdKRw4RPhjjiVjPwh1h+aK0PglsR6+7A3osXP5829hXNnarn9Yr1Zi9ThwwV4aA==}
     dependencies:
       ruit: 1.0.4
     dev: false
@@ -6428,10 +6433,10 @@ packages:
       unpipe: 1.0.0
     dev: true
 
-  /rawth@2.1.2:
-    resolution: {integrity: sha512-RMbHiR+LAuZ2wg0qHR0ADENFTvBfNqtF5QJK/rz1JhJ3CgmGx+WO7aT2wcCLxvtfBvfstrnKj3fdEIWvYB0B9A==}
+  /rawth@3.0.0:
+    resolution: {integrity: sha512-712WxtKAVEhtFm/4keDUefyjxAZR/jKrFR8ownCdjnFUxJstyigv3LBo3Shtd5VPC/p6r5gd6jY0bnAfPSol9Q==}
     dependencies:
-      erre: 2.2.0
+      erre: 3.0.1
       path-to-regexp: 6.2.1
     dev: false
 

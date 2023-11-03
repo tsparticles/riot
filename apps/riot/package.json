@@ -35,7 +35,7 @@
     "dependencies": {
         "@riotjs/hot-reload": "^6.0.1",
         "@riotjs/lazy": "^2.0.2",
-        "@riotjs/route": "^8.0.2",
+        "@riotjs/route": "^9.0.0",
         "path": "^0.12.7",
         "riot": "^9.0.0",
         "riot-particles": "^2.9.3",

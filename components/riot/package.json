@@ -102,7 +102,7 @@
     "@riotjs/cli": "^9.0.5",
     "@riotjs/compiler": "^9.0.7",
     "@tsparticles/prettier-config": "^2.0.5",
-    "chai": "^4.4.0",
+    "chai": "^5.0.0",
     "esm": "^3.2.25",
     "jsdom": "^24.0.0",
     "jsdom-global": "^3.0.2",

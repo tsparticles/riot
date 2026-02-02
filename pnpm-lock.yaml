@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@commitlint/cli':
         specifier: ^18.4.4
-        version: 18.4.4(@types/node@14.18.36)(typescript@5.3.3)
+        version: 18.4.4(@types/node@25.2.0)(typescript@5.3.3)
       '@commitlint/config-conventional':
         specifier: ^18.4.4
         version: 18.4.4
@@ -28,10 +28,10 @@ importers:
     dependencies:
       '@riotjs/hot-reload':
         specifier: ^9.0.1
-        version: 9.0.1(riot@9.1.2)
+        version: 9.0.1(riot@9.4.11)
       '@riotjs/lazy':
         specifier: ^9.0.0
-        version: 9.0.0(riot@9.1.2)
+        version: 9.0.0(riot@9.4.11)
       '@riotjs/route':
         specifier: ^9.1.2
         version: 9.1.2
@@ -49,7 +49,7 @@ importers:
         version: 0.12.7
       riot:
         specifier: ^9.1.2
-        version: 9.1.2
+        version: 9.4.11
       tsparticles:
         specifier: ^3.0.3
         version: 3.1.0
@@ -144,7 +144,7 @@ importers:
         version: 3.2.4
       riot:
         specifier: ^9.1.2
-        version: 9.1.2
+        version: 9.4.11
 
 packages:
 
@@ -523,14 +523,14 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@commitlint/cli@18.4.4(@types/node@14.18.36)(typescript@5.3.3):
+  /@commitlint/cli@18.4.4(@types/node@25.2.0)(typescript@5.3.3):
     resolution: {integrity: sha512-Ro3wIo//fV3XiV1EkdpHog6huaEyNcUAVrSmtgKqYM5g982wOWmP4FXvEDFwRMVgz878CNBvvCc33dMZ5AQJ/g==}
     engines: {node: '>=v18'}
     hasBin: true
     dependencies:
       '@commitlint/format': 18.4.4
       '@commitlint/lint': 18.4.4
-      '@commitlint/load': 18.4.4(@types/node@14.18.36)(typescript@5.3.3)
+      '@commitlint/load': 18.4.4(@types/node@25.2.0)(typescript@5.3.3)
       '@commitlint/read': 18.4.4
       '@commitlint/types': 18.4.4
       execa: 5.1.1
@@ -601,7 +601,7 @@ packages:
       '@commitlint/types': 18.4.4
     dev: false
 
-  /@commitlint/load@18.4.4(@types/node@14.18.36)(typescript@5.3.3):
+  /@commitlint/load@18.4.4(@types/node@25.2.0)(typescript@5.3.3):
     resolution: {integrity: sha512-RaDIa9qwOw2xRJ3Jr2DBXd14rmnHJIX2XdZF4kmoF1rgsg/+7cvrExLSUNAkQUNimyjCn1b/bKX2Omm+GdY0XQ==}
     engines: {node: '>=v18'}
     dependencies:
@@ -611,7 +611,7 @@ packages:
       '@commitlint/types': 18.4.4
       chalk: 4.1.2
       cosmiconfig: 8.3.6(typescript@5.3.3)
-      cosmiconfig-typescript-loader: 5.0.0(@types/node@14.18.36)(cosmiconfig@8.3.6)(typescript@5.3.3)
+      cosmiconfig-typescript-loader: 5.0.0(@types/node@25.2.0)(cosmiconfig@8.3.6)(typescript@5.3.3)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -1276,27 +1276,27 @@ packages:
       source-map: 0.7.4
     dev: true
 
-  /@riotjs/dom-bindings@9.0.3:
-    resolution: {integrity: sha512-CKQODvoSvzhHGvOPz53dnivdQWiLdq46WtChCwiYUstejf5rJvmkMZI7hpkE88KdhzHMpS7zpEwCsa+jSghG5A==}
+  /@riotjs/dom-bindings@9.2.8:
+    resolution: {integrity: sha512-Q9HmhUpleYcKGq0U9rVkYh36JjJ9q4vJ5Ck1ZtarNrr0dJBwgREsnj42wBA+1aFo6MoXT2SJECZfTpAfUEQH9g==}
     dependencies:
-      '@riotjs/util': 2.2.4
+      '@riotjs/util': 2.5.1
 
-  /@riotjs/hot-reload@9.0.1(riot@9.1.2):
+  /@riotjs/hot-reload@9.0.1(riot@9.4.11):
     resolution: {integrity: sha512-/S0m0STCmJgQY1nmSJNyFkE4VWc7oeyJTkakHVTB5CYY/aA6FnlENUjhfe23bzfab/gOkrNk3+M8yuZ0x9HO9g==}
     peerDependencies:
       riot: ^6.0.0 || ^7.0.0 || ^9.0.0
     dependencies:
       bianco.query: 1.1.4
-      riot: 9.1.2
+      riot: 9.4.11
     dev: false
 
-  /@riotjs/lazy@9.0.0(riot@9.1.2):
+  /@riotjs/lazy@9.0.0(riot@9.4.11):
     resolution: {integrity: sha512-RmDMJViPADzyPifyRb/mFP62K2FRwFOLoUAviFpV2KCRCeccaaI+xouzRUv+XTLAoBy6Ha0YqVRi51Q0aMp3DA==}
     peerDependencies:
       riot: ^6.0.0 || ^7.0.0 || ^9.0.0
     dependencies:
       '@riotjs/util': 2.2.4
-      riot: 9.1.2
+      riot: 9.4.11
     dev: false
 
   /@riotjs/parser@5.0.1:
@@ -1328,6 +1328,9 @@ packages:
 
   /@riotjs/util@2.2.4:
     resolution: {integrity: sha512-VXQUCANno/Rg1Luieh6eikzdm8mnPHZUjwSYhGKkGoT28qEknU8ntP90C7Br0ARAAX+67HfvM7F4NBtWcEhnOg==}
+
+  /@riotjs/util@2.5.1:
+    resolution: {integrity: sha512-P4dC9H3pqsZBk5ffi8BjcRYRvTJpukOj5oRDDClxz/syDHjxZOyOGalLtYVdck3RVb2BYlKWT2rDgy+aDe276w==}
 
   /@riotjs/webpack-loader@9.0.1(@riotjs/compiler@9.0.7)(webpack@5.89.0):
     resolution: {integrity: sha512-PSuxJU1BbTMk/e6mlbj10hK+PZ0ZclDevJ8ySbexmArlSiAGjQG1yQghes1+lrQYnADbvhwwBG33Ts1hSj7jWA==}
@@ -1931,6 +1934,13 @@ packages:
 
   /@types/node@14.18.36:
     resolution: {integrity: sha512-FXKWbsJ6a1hIrRxv+FoukuHnGTgEzKYGi7kilfMae96AL9UNkPFNWJEEYWzdRI9ooIkbr4AKldyuSTLql06vLQ==}
+    dev: true
+
+  /@types/node@25.2.0:
+    resolution: {integrity: sha512-DZ8VwRFUNzuqJ5khrvwMXHmvPe+zGayJhr2CDNiKB1WBE1ST8Djl00D0IC4vvNmHMdj6DlbYRIaFE7WHjlDl5w==}
+    dependencies:
+      undici-types: 7.16.0
+    dev: false
 
   /@types/normalize-package-data@2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -2765,7 +2775,7 @@ packages:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /chownr@2.0.0:
@@ -3093,7 +3103,7 @@ packages:
   /core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
 
-  /cosmiconfig-typescript-loader@5.0.0(@types/node@14.18.36)(cosmiconfig@8.3.6)(typescript@5.3.3):
+  /cosmiconfig-typescript-loader@5.0.0(@types/node@25.2.0)(cosmiconfig@8.3.6)(typescript@5.3.3):
     resolution: {integrity: sha512-+8cK7jRAReYkMwMiG+bxhcNKiHJDM6bR9FD/nGBXOWdMLuYawjF5cGrtLilJ+LGd3ZjCXnJjR5DkfWPoIVlqJA==}
     engines: {node: '>=v16'}
     peerDependencies:
@@ -3101,7 +3111,7 @@ packages:
       cosmiconfig: '>=8.2'
       typescript: '>=4'
     dependencies:
-      '@types/node': 14.18.36
+      '@types/node': 25.2.0
       cosmiconfig: 8.3.6(typescript@5.3.3)
       jiti: 1.21.0
       typescript: 5.3.3
@@ -3888,8 +3898,8 @@ packages:
   /fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
 
-  /fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+  /fsevents@2.3.3:
+    resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
@@ -4166,7 +4176,7 @@ packages:
       source-map: 0.6.1
       wordwrap: 1.0.0
     optionalDependencies:
-      uglify-js: 3.17.4
+      uglify-js: 3.19.3
     dev: false
 
   /hard-rejection@2.1.0:
@@ -6925,11 +6935,11 @@ packages:
       glob: 9.3.5
     dev: false
 
-  /riot@9.1.2:
-    resolution: {integrity: sha512-VC/+TeXfb0bqw/iC38imO0j2SgGBLjAEhrtv+Mwf9d3aNioWZROI6N+4QEi1N6+7dqQh/5iOx42SH/pPo0tFuA==}
+  /riot@9.4.11:
+    resolution: {integrity: sha512-xLenuo6UAF2IHMWXyCeRYR9vvgl0wgzISbZikfHylMBZvT1Ixbk4k5i6JG+9yKmkHL+FtcZ1Yu7fzsPGNN1ozg==}
     engines: {node: '>=18.0.0'}
     dependencies:
-      '@riotjs/dom-bindings': 9.0.3
+      '@riotjs/dom-bindings': 9.2.8
 
   /rollup-plugin-riot@9.0.2(@riotjs/compiler@9.0.7)(rollup@3.29.4):
     resolution: {integrity: sha512-ubVF5PAUwuiXTcWqcviREwkAOLKGzRQiWQg2ud3JiChLi1L66nSSO/nVUcKuAbK8s0Roj2e6mQ9UdDP2FjgPWA==}
@@ -6947,7 +6957,7 @@ packages:
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /rrweb-cssom@0.6.0:
@@ -7800,13 +7810,17 @@ packages:
     hasBin: true
     dev: false
 
-  /uglify-js@3.17.4:
-    resolution: {integrity: sha512-T9q82TJI9e/C1TAxYvfb16xO120tMVFZrGA3f9/P4424DNu6ypK103y0GPFVa17yotwSyZW5iYXgjYHkGrJW/g==}
+  /uglify-js@3.19.3:
+    resolution: {integrity: sha512-v3Xu+yuwBXisp6QYTcH4UbH+xYJXqnq2m/LtQVWKWzYc1iehYnLixoQDN9FH6/j9/oybfd6W9Ghwkl8+UMKTKQ==}
     engines: {node: '>=0.8.0'}
     hasBin: true
     requiresBuild: true
     dev: false
     optional: true
+
+  /undici-types@7.16.0:
+    resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
+    dev: false
 
   /unique-filename@3.0.0:
     resolution: {integrity: sha512-afXhuC55wkAmZ0P18QsVE6kp8JaxrEokN2HGIoIVv2ijHQd419H0+6EigAFcIzXeMIkcIkNBpB3L/DXB3cTS/g==}

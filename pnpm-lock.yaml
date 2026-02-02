@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@commitlint/cli':
         specifier: ^18.4.4
-        version: 18.4.4(@types/node@14.18.36)(typescript@5.3.3)
+        version: 18.4.4(@types/node@25.2.0)(typescript@5.3.3)
       '@commitlint/config-conventional':
         specifier: ^18.4.4
         version: 18.4.4
@@ -120,7 +120,7 @@ importers:
         version: 9.0.7
       '@tsparticles/prettier-config':
         specifier: ^2.0.5
-        version: 2.0.5
+        version: 2.1.6
       chai:
         specifier: ^4.4.0
         version: 4.4.1
@@ -161,12 +161,28 @@ packages:
       '@jridgewell/trace-mapping': 0.3.17
     dev: true
 
-  /@augment-vir/common@22.4.0:
-    resolution: {integrity: sha512-7E0Qng7YN0nhqxtqzePTB6Mms5fR05OTexjlKOgjbNi+SWDCRt2zFGWfMhirEoDONa3BRpgXsQjqz/sEzIwHMg==}
+  /@augment-vir/common@23.4.0:
+    resolution: {integrity: sha512-QIrJ1doD00TNbOzeVrk9KgPTzRlIjayxERnhtbQjK/AFPj5yElcB03GbnGdQZPzws/R+5gfMM5cZiH7QyBP+Kg==}
     dependencies:
       browser-or-node: 2.1.1
-      run-time-assertions: 0.3.0
-      type-fest: 4.9.0
+      run-time-assertions: 1.5.2
+      type-fest: 4.41.0
+    dev: true
+
+  /@augment-vir/common@28.2.4:
+    resolution: {integrity: sha512-5Ib0OX7YlxAuFrG+MAoTsz6RlKMcbdMdoNGcEEKH/ezc/ZKMy/IHZ9Z/ZcCHYopZ4ocGXzVY4KUOiJ8+CXXvTA==}
+    dependencies:
+      browser-or-node: 3.0.0
+      run-time-assertions: 1.5.2
+      type-fest: 4.41.0
+    dev: true
+
+  /@augment-vir/common@29.3.0:
+    resolution: {integrity: sha512-k3OX35/576thmGUzQUBcCKGarb7ONBfiu07+iV2vxmjl7VoB1rOB0vu8WqgB1ceJq2EMLDPXY18hHpJ9WeTHXQ==}
+    dependencies:
+      browser-or-node: 3.0.0
+      run-time-assertions: 1.5.2
+      type-fest: 4.41.0
     dev: true
 
   /@babel/code-frame@7.18.6:
@@ -523,14 +539,14 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@commitlint/cli@18.4.4(@types/node@14.18.36)(typescript@5.3.3):
+  /@commitlint/cli@18.4.4(@types/node@25.2.0)(typescript@5.3.3):
     resolution: {integrity: sha512-Ro3wIo//fV3XiV1EkdpHog6huaEyNcUAVrSmtgKqYM5g982wOWmP4FXvEDFwRMVgz878CNBvvCc33dMZ5AQJ/g==}
     engines: {node: '>=v18'}
     hasBin: true
     dependencies:
       '@commitlint/format': 18.4.4
       '@commitlint/lint': 18.4.4
-      '@commitlint/load': 18.4.4(@types/node@14.18.36)(typescript@5.3.3)
+      '@commitlint/load': 18.4.4(@types/node@25.2.0)(typescript@5.3.3)
       '@commitlint/read': 18.4.4
       '@commitlint/types': 18.4.4
       execa: 5.1.1
@@ -601,7 +617,7 @@ packages:
       '@commitlint/types': 18.4.4
     dev: false
 
-  /@commitlint/load@18.4.4(@types/node@14.18.36)(typescript@5.3.3):
+  /@commitlint/load@18.4.4(@types/node@25.2.0)(typescript@5.3.3):
     resolution: {integrity: sha512-RaDIa9qwOw2xRJ3Jr2DBXd14rmnHJIX2XdZF4kmoF1rgsg/+7cvrExLSUNAkQUNimyjCn1b/bKX2Omm+GdY0XQ==}
     engines: {node: '>=v18'}
     dependencies:
@@ -611,7 +627,7 @@ packages:
       '@commitlint/types': 18.4.4
       chalk: 4.1.2
       cosmiconfig: 8.3.6(typescript@5.3.3)
-      cosmiconfig-typescript-loader: 5.0.0(@types/node@14.18.36)(cosmiconfig@8.3.6)(typescript@5.3.3)
+      cosmiconfig-typescript-loader: 5.0.0(@types/node@25.2.0)(cosmiconfig@8.3.6)(typescript@5.3.3)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -1658,11 +1674,11 @@ packages:
       '@tsparticles/engine': 3.1.0
     dev: false
 
-  /@tsparticles/prettier-config@2.0.5:
-    resolution: {integrity: sha512-m1LMYzPSSF0APRK7U6ajhT6qK+kJ2kLx5QnH5KXLpTikRFQgaHPx8pKKwOJpd6H4QXaLGaSfkJT2exCKowNvTw==}
+  /@tsparticles/prettier-config@2.1.6:
+    resolution: {integrity: sha512-KaiIN2QB9KVpsI+irHGpOdVEoAhlrTRGdjF+MhCawdMINlChgZfxXvvREzt1gSYxusqmEv/mF1u/fp0tBhGPqg==}
     dependencies:
-      prettier: 3.2.4
-      prettier-plugin-multiline-arrays: 3.0.1(prettier@3.2.4)
+      prettier: 3.8.1
+      prettier-plugin-multiline-arrays: 3.0.6(prettier@3.8.1)
     dev: true
 
   /@tsparticles/shape-circle@3.1.0:
@@ -1931,6 +1947,13 @@ packages:
 
   /@types/node@14.18.36:
     resolution: {integrity: sha512-FXKWbsJ6a1hIrRxv+FoukuHnGTgEzKYGi7kilfMae96AL9UNkPFNWJEEYWzdRI9ooIkbr4AKldyuSTLql06vLQ==}
+    dev: true
+
+  /@types/node@25.2.0:
+    resolution: {integrity: sha512-DZ8VwRFUNzuqJ5khrvwMXHmvPe+zGayJhr2CDNiKB1WBE1ST8Djl00D0IC4vvNmHMdj6DlbYRIaFE7WHjlDl5w==}
+    dependencies:
+      undici-types: 7.16.0
+    dev: false
 
   /@types/normalize-package-data@2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -2537,6 +2560,10 @@ packages:
     resolution: {integrity: sha512-8CVjaLJGuSKMVTxJ2DpBl5XnlNDiT4cQFeuCJJrvJmts9YrTZDizTX7PjC2s6W4x+MBGZeEY6dGMrF04/6Hgqg==}
     dev: true
 
+  /browser-or-node@3.0.0:
+    resolution: {integrity: sha512-iczIdVJzGEYhP5DqQxYM9Hh7Ztpqqi+CXZpSmX8ALFs9ecXkQIeqRyM6TfxEfMVpwhl3dSuDvxdzzo9sUOIVBQ==}
+    dev: true
+
   /browser-stdout@1.3.1:
     resolution: {integrity: sha512-qhAVI1+Av2X7qelOfAIYwXONood6XlZE/fXaBSmW/T5SzLAmCgzi+eiWE7fUvbHaeNBQH13UftjpXxsfLkMpgw==}
     dev: true
@@ -2765,7 +2792,7 @@ packages:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /chownr@2.0.0:
@@ -3093,7 +3120,7 @@ packages:
   /core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
 
-  /cosmiconfig-typescript-loader@5.0.0(@types/node@14.18.36)(cosmiconfig@8.3.6)(typescript@5.3.3):
+  /cosmiconfig-typescript-loader@5.0.0(@types/node@25.2.0)(cosmiconfig@8.3.6)(typescript@5.3.3):
     resolution: {integrity: sha512-+8cK7jRAReYkMwMiG+bxhcNKiHJDM6bR9FD/nGBXOWdMLuYawjF5cGrtLilJ+LGd3ZjCXnJjR5DkfWPoIVlqJA==}
     engines: {node: '>=v16'}
     peerDependencies:
@@ -3101,7 +3128,7 @@ packages:
       cosmiconfig: '>=8.2'
       typescript: '>=4'
     dependencies:
-      '@types/node': 14.18.36
+      '@types/node': 25.2.0
       cosmiconfig: 8.3.6(typescript@5.3.3)
       jiti: 1.21.0
       typescript: 5.3.3
@@ -3888,8 +3915,8 @@ packages:
   /fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
 
-  /fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+  /fsevents@2.3.3:
+    resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
@@ -4166,7 +4193,7 @@ packages:
       source-map: 0.6.1
       wordwrap: 1.0.0
     optionalDependencies:
-      uglify-js: 3.17.4
+      uglify-js: 3.19.3
     dev: false
 
   /hard-rejection@2.1.0:
@@ -6534,18 +6561,24 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-multiline-arrays@3.0.1(prettier@3.2.4):
-    resolution: {integrity: sha512-xRwqy/6eMU7234W3/XFjviTn00X2JlXyiUUdpFk4R0HbLJ0QJDA1i5fLZnVQrcSrWzidrHvs1SauEpFsBDxWAQ==}
+  /prettier-plugin-multiline-arrays@3.0.6(prettier@3.8.1):
+    resolution: {integrity: sha512-FrWVa7MoDQo9b5XoLPrqIDClb0k+O8wOIsIr1DutRXhcerLY8PfIe/yYeTVD/vpRISkSXCBEYmj5Voe0wb5dEQ==}
     peerDependencies:
-      prettier: ^3.0.0
+      prettier: '>=3.0.0'
     dependencies:
-      '@augment-vir/common': 22.4.0
-      prettier: 3.2.4
-      proxy-vir: 0.0.2
+      '@augment-vir/common': 28.2.4
+      prettier: 3.8.1
+      proxy-vir: 1.0.0
     dev: true
 
   /prettier@3.2.4:
     resolution: {integrity: sha512-FWu1oLHKCrtpO1ypU6J0SbK2d9Ckwysq6bHj/uaCP26DxrPpppCLQRGVuqAxSTvhF00AcvDRyYrLNW7ocBhFFQ==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
+
+  /prettier@3.8.1:
+    resolution: {integrity: sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
@@ -6626,10 +6659,10 @@ packages:
     resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
     dev: false
 
-  /proxy-vir@0.0.2:
-    resolution: {integrity: sha512-4yP9ol7cFb1lUwYyj0B1+M+EpQz7tAu7PTgHCqOQenn0abXOJ3epfS3d2e+9zTgpBfYFzutL5tD2hyFz/smXyw==}
+  /proxy-vir@1.0.0:
+    resolution: {integrity: sha512-WV1gkBxUOwLSz0Bn09tisIqLK7leAqtFm/474t3L0hQKJw7/gdrkGcWw0/OT1PhSy+TDS6swfq7Niuoq3XJhkQ==}
     dependencies:
-      '@augment-vir/common': 22.4.0
+      '@augment-vir/common': 23.4.0
     dev: true
 
   /psl@1.9.0:
@@ -6947,7 +6980,7 @@ packages:
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /rrweb-cssom@0.6.0:
@@ -6969,12 +7002,13 @@ packages:
       queue-microtask: 1.2.3
     dev: false
 
-  /run-time-assertions@0.3.0:
-    resolution: {integrity: sha512-XDSPemT0ppqLnlar4Nea7SoZdfImygVh5HtIwHdq3mefWtTZAXwKdtckAoVsgQQhrdxf2T8c4b8DktBvEWOqng==}
+  /run-time-assertions@1.5.2:
+    resolution: {integrity: sha512-ccfwvjGuNU14cSSXLlmPRiqEgMfA7w3J2TViO79zMnzXGvE6FJ0dxnhIQGwe5r/vwySOJ4sqZksexo9wyAlA8g==}
+    deprecated: Use @augment-vir/assert instead.
     dependencies:
-      '@augment-vir/common': 22.4.0
+      '@augment-vir/common': 29.3.0
       expect-type: 0.15.0
-      type-fest: 4.9.0
+      type-fest: 4.41.0
     dev: true
 
   /rxjs@7.8.0:
@@ -7771,8 +7805,8 @@ packages:
     resolution: {integrity: sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==}
     engines: {node: '>=8'}
 
-  /type-fest@4.9.0:
-    resolution: {integrity: sha512-KS/6lh/ynPGiHD/LnAobrEFq3Ad4pBzOlJ1wAnJx9N4EYoqFhMfLIBjUT2UEx4wg5ZE+cC1ob6DCSpppVo+rtg==}
+  /type-fest@4.41.0:
+    resolution: {integrity: sha512-TeTSQ6H5YHvpqVwBRcnLDCBnDOHWYu7IvGbHT6N8AOymcr9PJGjc1GTtiWZTYg0NCgYwvnYWEkVChQAr9bjfwA==}
     engines: {node: '>=16'}
     dev: true
 
@@ -7800,13 +7834,17 @@ packages:
     hasBin: true
     dev: false
 
-  /uglify-js@3.17.4:
-    resolution: {integrity: sha512-T9q82TJI9e/C1TAxYvfb16xO120tMVFZrGA3f9/P4424DNu6ypK103y0GPFVa17yotwSyZW5iYXgjYHkGrJW/g==}
+  /uglify-js@3.19.3:
+    resolution: {integrity: sha512-v3Xu+yuwBXisp6QYTcH4UbH+xYJXqnq2m/LtQVWKWzYc1iehYnLixoQDN9FH6/j9/oybfd6W9Ghwkl8+UMKTKQ==}
     engines: {node: '>=0.8.0'}
     hasBin: true
     requiresBuild: true
     dev: false
     optional: true
+
+  /undici-types@7.16.0:
+    resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
+    dev: false
 
   /unique-filename@3.0.0:
     resolution: {integrity: sha512-afXhuC55wkAmZ0P18QsVE6kp8JaxrEokN2HGIoIVv2ijHQd419H0+6EigAFcIzXeMIkcIkNBpB3L/DXB3cTS/g==}

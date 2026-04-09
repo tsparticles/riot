@@ -91,7 +91,7 @@
         "riot": ">=5"
     },
     "dependencies": {
-        "tsparticles-engine": "^2.8.0"
+        "@tsparticles/engine": "^4.0.0-beta.11"
     },
     "devDependencies": {
         "@babel/core": "^7.20.7",

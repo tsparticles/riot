@@ -39,8 +39,8 @@
         "@tsparticles/riot": "workspace:^",
         "path": "^0.12.7",
         "riot": "^7.1.0",
-        "tsparticles": "^4.0.0-beta.11",
+        "tsparticles": "^3.9.1",
         "@tsparticles/configs": "^3.9.1",
-        "@tsparticles/engine": "^4.0.0-beta.11"
+        "@tsparticles/engine": "^3.9.1"
     }
 }

@@ -81,6 +81,28 @@ yarn add @tsparticles/riot
 />
 ```
 
+### Styling the particles container
+
+You can style the wrapper with `className` or `style` props:
+
+```html
+<@tsparticles/riot
+    id="tsparticles"
+    className="demo-particles"
+    style="position: fixed; inset: 0; z-index: -1;"
+    options="{{ particles: { move: { enable: true } } }}"
+/>
+```
+
+## Workspace Build Architecture
+
+This repository now supports both orchestrators:
+
+- `pnpm run build`
+- `pnpm run build:ci`
+- `pnpm run build:lerna`
+- `pnpm run build:nx`
+
 ## Demos
 
 The demo website is [here](https://particles.js.org)

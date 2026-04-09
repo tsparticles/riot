@@ -50,6 +50,19 @@ console.log(main); // this loads the tsparticles package bundle, it is the easie
 particlesLoaded="{(container) => console.log(container)}" /> />
 ```
 
+### Styling the particles container
+
+You can style the wrapper with `className` or `style` props:
+
+```html
+<@tsparticles/riot
+    id="tsparticles"
+    className="demo-particles"
+    style="position: fixed; inset: 0; z-index: -1;"
+    options="{{ particles: { move: { enable: true } } }}"
+/>
+```
+
 ## Demos
 
 The demo website is [here](https://particles.js.org)

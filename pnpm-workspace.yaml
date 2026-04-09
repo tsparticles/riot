@@ -2,3 +2,8 @@ packages:
   - 'apps/*'
   - 'components/*'
   - 'components-legacy/*'
+allowBuilds:
+  '@parcel/watcher': true
+  '@tsparticles/engine': true
+  nx: true
+  tsparticles-engine: true

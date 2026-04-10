@@ -1,38 +1,60 @@
 [![banner](https://particles.js.org/images/banner3.png)](https://particles.js.org)
 
-# @tsparticles/riot
+# riot-particles
 
-[![npm](https://img.shields.io/npm/v/@tsparticles/riot)](https://www.npmjs.com/package/@tsparticles/riot) [![npm downloads](https://img.shields.io/npm/dm/@tsparticles/riot)](https://www.npmjs.com/package/@tsparticles/riot) [![GitHub Sponsors](https://img.shields.io/github/sponsors/matteobruni)](https://github.com/sponsors/matteobruni)
+[![npm](https://img.shields.io/npm/v/riot-particles)](https://www.npmjs.com/package/riot-particles) [![npm downloads](https://img.shields.io/npm/dm/riot-particles)](https://www.npmjs.com/package/riot-particles) [![GitHub Sponsors](https://img.shields.io/github/sponsors/matteobruni)](https://github.com/sponsors/matteobruni)
 
 Official [tsParticles](https://github.com/matteobruni/tsparticles) RiotJS component
 
-[![Slack](https://particles.js.org/images/slack.png)](https://join.slack.com/t/tsparticles/shared_invite/enQtOTcxNTQxNjQ4NzkxLWE2MTZhZWExMWRmOWI5MTMxNjczOGE1Yjk0MjViYjdkYTUzODM3OTc5MGQ5MjFlODc4MzE0N2Q1OWQxZDc1YzI) [![Discord](https://particles.js.org/images/discord.png)](https://discord.gg/hACwv45Hme) [![Telegram](https://particles.js.org/images/telegram.png)](https://t.me/tsparticles)
+[![Discord](https://particles.js.org/images/discord.png)](https://discord.gg/hACwv45Hme) [![Telegram](https://particles.js.org/images/telegram.png)](https://t.me/tsparticles)
 
 [![tsParticles Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=186113&theme=light)](https://www.producthunt.com/posts/tsparticles?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-tsparticles") <a href="https://www.buymeacoffee.com/matteobruni"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a beer&emoji=🍺&slug=matteobruni&button_colour=5F7FFF&font_colour=ffffff&font_family=Arial&outline_colour=000000&coffee_colour=FFDD00"></a>
 
 ## Installation
 
 ```shell
-npm install @tsparticles/riot
+npm install riot-particles
 ```
 
 or
 
 ```shell
-yarn add @tsparticles/riot
+yarn add riot-particles
 ```
 
 ## Usage
 
 ```html
-<@tsparticles/riot id="tsparticles" options='{{ background: { color: "#000" }, fullScreen: { enable: true }, particles:
-{ links: { enable: true }, move: { enable: true } } }}' particlesInit="{async (main) => { console.log(main); // this
-loads the tsparticles package bundle, it is the easiest method for getting everything ready // starting from v2 you can
-add only the features you need reducing the bundle size await loadFull(main); }}" particlesLoaded="{(container) =>
-console.log(container)}" />
+<riot-particles
+    id="tsparticles"
+    options='{{
+        background: {
+            color: "#000"
+        },
+        fullScreen: {
+            enable: true
+        },
+        particles: {
+            links: {
+                enable: true
+            },
+            move: {
+                enable: true
+            }
+        }
+    }}'
+    particlesInit="{async (main) => {
+        console.log(main);
+        
+        // this loads the tsparticles package bundle, it is the easiest method for getting everything ready
+        // starting from v2 you can add only the features you need reducing the bundle size
+        await loadFull(main); 
+    }}"
+    particlesLoaded="{(container) => console.log(container)}"
+/>
 
 <script>
-    import RiotParticles from "@tsparticles/riot";
+    import RiotParticles from "riot-particles";
     import { loadFull } from "tsparticles";
 
     export default {
@@ -44,10 +66,19 @@ console.log(container)}" />
 
 <!-- or -->
 
-<@tsparticles/riot id="tsparticles" url="https://foo.bar/particles.json" particlesInit="{async (main) => {
-console.log(main); // this loads the tsparticles package bundle, it is the easiest method for getting everything ready
-// starting from v2 you can add only the features you need reducing the bundle size await loadFull(main); }}"
-particlesLoaded="{(container) => console.log(container)}" /> />
+<riot-particles
+    id="tsparticles"
+    url="https://foo.bar/particles.json"
+    particlesInit="{async (main) => {
+        console.log(main);
+        
+        // this loads the tsparticles package bundle, it is the easiest method for getting everything ready
+        // starting from v2 you can add only the features you need reducing the bundle size
+        await loadFull(main); 
+    }}"
+    particlesLoaded="{(container) => console.log(container)}"
+/>
+/>
 ```
 
 ## Demos

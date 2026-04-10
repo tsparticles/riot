@@ -10,7 +10,7 @@ import User from "./components/includes/user/user.riot";
 register("my-component", MyComponent);
 register("sidebar", Sidebar);
 register("user", User);
-register("@tsparticles/riot", RiotParticles);
+register("riot-particles", RiotParticles);
 
 // mount all the global components found in this page
 mount('[data-riot-component]')
